@@ -1,0 +1,20 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--branco);
+}
+
+.cabecalho_hamburguer {
+  background-image: url(../img/icon_menu_black.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-block;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+}
