@@ -1,0 +1,24 @@
+{
+  "name": "html-css-mobile-first",
+  "version": "1.0.0",
+  "description": "Projeto do curso Alura HTML e CSS Responsivo com Mobile First",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epiled/HTML-e-CSS-responsividade-com-mobile-first.git"
+  },
+  "author": "Felipe De Andrade Mendonça",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Epiled/HTML-e-CSS-responsividade-com-mobile-first/issues"
+  },
+  "homepage": "https://github.com/Epiled/HTML-e-CSS-responsividade-com-mobile-first#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
