@@ -3,18 +3,32 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--branco);
+  height: 8rem;
+  position: relative;
 }
 
 .cabecalho_hamburguer {
   background-image: url(../img/icon_menu_black.svg);
   background-position: center;
   background-repeat: no-repeat;
-  width: 2.4rem;
-  height: 2.4rem;
   display: inline-block;
+  height: 8rem;
+  width: 8rem;
 }
 
-.conteiner {
+.container {
   display: flex;
   align-items: center;
+}
+
+.container_botao:checked ~ .lista-menu {
+  display: block;
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 60%;
 }
