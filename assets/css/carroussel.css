@@ -6,3 +6,17 @@
   background: var(--branco);
   padding: 2rem 0 1rem 0;
 }
+
+.swiper-pagination {
+  position: initial;
+  margin: 1rem 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}

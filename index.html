@@ -69,12 +69,24 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide"><img src="./assets/img/livro_acessibilidade.svg" alt="Livro Acessibilidade" /></div>
-            <div class="swiper-slide"><img src="./assets/img/livro_guia_front_end.svg" alt="Livro Guia Front-End"></div>
-            <div class="swiper-slide"><img src="./assets/img/livro_javascript.svg" alt="Livro Javascript"></div>
-            <div class="swiper-slide"><img src="./assets/img/livro_metricas_ageis.svg" alt="Livro Métricas Ágeis"></div>
-            <div class="swiper-slide"><img src="./assets/img/livro_nodejs.svg" alt="Livro Node.js"></div>
-            <div class="swiper-slide"><img src="./assets/img/livro_react_native.svg" alt="Livro React Native"></div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_acessibilidade.svg" alt="Livro Acessibilidade" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_guia_front_end.svg" alt="Livro Guia Front-End">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_javascript.svg" alt="Livro Javascript">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_metricas_ageis.svg" alt="Livro Métricas Ágeis">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_nodejs.svg" alt="Livro Node.js">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_react_native.svg" alt="Livro React Native">
+            </div>
           </div>
         
           <!-- If we need navigation buttons -->
@@ -86,5 +98,15 @@
     </main>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        },
+      })
+    </script>
 </body>
 </html>
