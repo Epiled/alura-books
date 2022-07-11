@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /><link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header class="cabecalho">
         <div class="container">
-          <input type="checkbox" name="menu" id="menu" class="container_botao">
+          <input type="checkbox" name="menu" id="menu" class="container_botao" />
 
           <label for="menu">
             <span class="cabecalho_hamburguer container_imagem"></span>
@@ -22,28 +22,50 @@
 
           <ul class="lista-menu">
             <li class="lista-menu_titulo">Categorias</li>
-            <li class="lista-menu_item"><a class="lista-menu_link" href="">Programação</a></li>
-            <li class="lista-menu_item"><a class="lista-menu_link" href="">Front-End</a></li>
-            <li class="lista-menu_item"><a class="lista-menu_link" href="">Infraestrutura</a></li>
-            <li class="lista-menu_item"><a class="lista-menu_link" href="">Business</a></li>
-            <li class="lista-menu_item"><a class="lista-menu_link" href="">Design & UX</a></li>
+            <li class="lista-menu_item">
+              <a class="lista-menu_link" href="#">Programação</a>
+            </li>
+            <li class="lista-menu_item">
+              <a class="lista-menu_link" href="#">Front-End</a>
+            </li>
+            <li class="lista-menu_item">
+              <a class="lista-menu_link" href="#">Infraestrutura</a>
+            </li>
+            <li class="lista-menu_item">
+              <a class="lista-menu_link" href="#">Business</a>
+            </li>
+            <li class="lista-menu_item">
+              <a class="lista-menu_link" href="#">Design & UX</a>
+            </li>
           </ul>
 
           <img src="./assets/img/logo.svg" class="container_imagem" alt="Logo">
         </div>
 
         <div class="container">
-            <a href="#"><img src="assets/img/icon_heart.svg" class="container_imagem" alt="Favoritos"></a>
-            <a href="#"><img src="assets/img/icon_bag.svg" class="container_imagem" alt="Sacola de compras"></a>
-            <a href="#"><img src="assets/img/icon_people.svg" class="container_imagem" alt="Perfil"></a>
+            <a href="#">
+              <img src="assets/img/icon_heart.svg" class="container_imagem" alt="Favoritos" />
+            </a>
+            <a href="#">
+              <img src="assets/img/icon_bag.svg" class="container_imagem" alt="Sacola de compras" />
+            </a>
+            <a href="#">
+              <img src="assets/img/icon_people.svg" class="container_imagem" alt="Perfil" />
+            </a>
         </div>
     </header>
     <main>
       <section class="banner">
         <h2 class="banner_titulo">Já sabe por onde começar?</h2>
         <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input class="banner_pesquisa" type="search" name="" id="" placeholder="Qual será sua próxima leitura?">
+        <input class="banner_pesquisa" type="search" name="pesquisa" id="pesquisa" placeholder="Qual será sua próxima leitura?" />
+      </section>
+
+      <section class="carroussel">
+
       </section>
     </main>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
