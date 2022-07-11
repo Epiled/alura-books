@@ -34,9 +34,14 @@
   gap: 1.6rem;
 }
 
+.descricao_estrelas {
+  margin-bottom: .8rem;
+}
+
 .descricao_prefixo {
   font-weight: 700;
   color: var(--laranja);
+  display: block;
 }
 
 .descricao_titulo {
