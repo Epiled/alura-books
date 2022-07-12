@@ -11,6 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -24,7 +30,9 @@
         <input type="checkbox" name="menu" id="menu" class="container_botao" />
 
         <label for="menu">
-          <span class="cabecalho_hamburguer container_imagem"></span>
+          <span
+            class="cabecalho_hamburguer container_imagem cabecalho_imagem-transparent"
+          ></span>
         </label>
 
         <ul class="lista-menu">
@@ -47,13 +55,44 @@
         </ul>
 
         <img src="./assets/img/logo.svg" class="container_imagem" alt="Logo" />
+        <h1 class="cabecalho_titulo">
+          <span class="cabecalho_destaque">Alura</span>Books
+        </h1>
       </div>
 
-      <div class="container">
+      <ul class="opcoes">
+        <input type="checkbox" name="opcoes-menu" id="opcoes_menu" class="opcoes_menu" />
+        <label for="opcoes_menu">
+          <li class="opcoes_item">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu_item">
+            <a class="lista-menu_link" href="#">Programação</a>
+          </li>
+          <li class="lista-menu_item">
+            <a class="lista-menu_link" href="#">Front-End</a>
+          </li>
+          <li class="lista-menu_item">
+            <a class="lista-menu_link" href="#">Infraestrutura</a>
+          </li>
+          <li class="lista-menu_item">
+            <a class="lista-menu_link" href="#">Business</a>
+          </li>
+          <li class="lista-menu_item">
+            <a class="lista-menu_link" href="#">Design & UX</a>
+          </li>
+        </ul>
+
+        <li class="opcoes_item"><a class="opcoes_link" href="#">Favoritos</a></li>
+        <li class="opcoes_item"><a class="opcoes_link" href="#">Minha Estante</a></li>
+      </ul>
+
+      <div class="container container_icones">
         <a href="#">
           <img
             src="assets/img/icon_heart.svg"
-            class="container_imagem"
+            class="container_imagem cabecalho_imagem-transparent"
             alt="Favoritos"
           />
         </a>
@@ -135,7 +174,9 @@
         <div class="card">
           <div class="card_descricao">
             <div class="descricao">
-              <span class="descricao_prefixo">Talvez você também se interesse por...</span>
+              <span class="descricao_prefixo"
+                >Talvez você também se interesse por...</span
+              >
               <h2 class="descricao_titulo">Angular 11 e Firebase</h2>
               <p class="descricao_texto">
                 Construindo uma aplicação integrada com a plataforma do Google.
@@ -145,8 +186,15 @@
           </div>
           <div class="card_botoes">
             <ul class="botoes">
-              <li class="botoes_item"><img src="./assets/img/icon_heart.svg" alt="Favoritar livro"></li>
-              <li class="botoes_item"><img src="./assets/img/icon_bag.svg" alt="Adicionar ao carinho de compras"></li>
+              <li class="botoes_item">
+                <img src="./assets/img/icon_heart.svg" alt="Favoritar livro" />
+              </li>
+              <li class="botoes_item">
+                <img
+                  src="./assets/img/icon_bag.svg"
+                  alt="Adicionar ao carinho de compras"
+                />
+              </li>
             </ul>
 
             <a class="botoes_ancora" href="#">Saiba mais</a>
@@ -201,19 +249,34 @@
         <div class="card">
           <div class="card_descricao">
             <div class="descricao">
-              <img class="descricao_estrelas" src="./assets/img/estrelinhas.svg" alt="5 estrelinhas">
+              <img
+                class="descricao_estrelas"
+                src="./assets/img/estrelinhas.svg"
+                alt="5 estrelinhas"
+              />
               <span class="descricao_prefixo">Autora do Mês</span>
               <h2 class="descricao_titulo">Juliana Agarikov</h2>
               <p class="descricao_texto">
-                Analista de sistemas e escritora, Juliana é especialista em Front-End. 
+                Analista de sistemas e escritora, Juliana é especialista em
+                Front-End.
               </p>
             </div>
-            <img src="./assets/img/perfil_escritora_1.svg" alt="Juliana Agarikov" />
+            <img
+              src="./assets/img/perfil_escritora_1.svg"
+              alt="Juliana Agarikov"
+            />
           </div>
           <div class="card_botoes">
             <ul class="botoes">
-              <li class="botoes_item"><img src="./assets/img/icon_heart.svg" alt="Favoritar livro"></li>
-              <li class="botoes_item"><img src="./assets/img/icon_bag.svg" alt="Adicionar ao carinho de compras"></li>
+              <li class="botoes_item">
+                <img src="./assets/img/icon_heart.svg" alt="Favoritar livro" />
+              </li>
+              <li class="botoes_item">
+                <img
+                  src="./assets/img/icon_bag.svg"
+                  alt="Adicionar ao carinho de compras"
+                />
+              </li>
             </ul>
 
             <a class="botoes_ancora" href="#">Saiba mais</a>
@@ -225,21 +288,41 @@
         <h2 class="topicos_titulo">Tópicos Visitados recentemente</h2>
 
         <ul class="topicos_lista">
-          <li class="topicos_item"><a href="#" class="topicos_link">Android</a></li>
-          <li class="topicos_item"><a href="#" class="topicos_link">Marketing Digital</a></li>
-          <li class="topicos_item"><a href="#" class="topicos_link">Agile</a></li>
-          <li class="topicos_item"><a href="#" class="topicos_link">Startups</a></li>
-          <li class="topicos_item"><a href="#" class="topicos_link">HTML & CSS</a></li>
-          <li class="topicos_item"><a href="#" class="topicos_link">Python</a></li>
+          <li class="topicos_item">
+            <a href="#" class="topicos_link">Android</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos_link">Marketing Digital</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos_link">Agile</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos_link">Startups</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos_link">HTML & CSS</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos_link">Python</a>
+          </li>
           <li class="topicos_item"><a href="#" class="topicos_link">OO</a></li>
-          <li class="topicos_item"><a href="#" class="topicos_link">Java</a></li>
+          <li class="topicos_item">
+            <a href="#" class="topicos_link">Java</a>
+          </li>
         </ul>
       </section>
 
       <section class="contato">
         <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
-        <p class="contato_texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-        <input class="contato_email" type="email" placeholder="Cadastre seu e-mail">
+        <p class="contato_texto">
+          Atualizações de e-books, novos livros, promoções e outros.
+        </p>
+        <input
+          class="contato_email"
+          type="email"
+          placeholder="Cadastre seu e-mail"
+        />
       </section>
     </main>
 

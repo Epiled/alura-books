@@ -59,3 +59,79 @@
 .container_botao {
   display: none;
 }
+
+@media screen and (min-width: 1024px) {
+  .container {
+    align-items: self-end;
+  }
+
+  .container_icones {
+    gap: 6rem
+  }
+
+  .container_imagem {
+    padding: 0;
+  }
+
+  .cabecalho {
+    justify-content: space-around;
+  }
+
+  .cabecalho_imagem-transparent {
+    display: none;
+  }
+
+  .cabecalho_titulo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    padding-left: 1rem;
+  }
+
+  .cabecalho_destaque {
+    font-weight: 700;
+  }
+
+  .opcoes {
+    display: flex;
+    position: relative;
+  }
+
+  .opcoes_menu {
+    display: none;
+  }
+
+  .opcoes_menu:checked~.lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  .opcoes_item {
+    padding: 2rem 1rem;
+    text-transform: uppercase;
+  }
+
+  .opcoes_item:hover {
+    background: var(--azul-degrade);
+    color: var(--branco);
+  }
+
+  .opcoes_link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .lista-menu_item:hover {
+    background: var(--azul-degrade);
+    color: var(--branco);
+  }
+
+  .lista-menu_item:hover .lista-menu_link {
+    color: inherit;
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
