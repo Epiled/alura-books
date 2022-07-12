@@ -1,7 +1,7 @@
 .rodape {
   background-color: var(--branco);
   padding: 2.4rem;
-  border-top: 1px solid #858585;
+  border-top: .1rem solid var(--cinza-claro);
 }
 
 .lista-rodape {
@@ -52,7 +52,7 @@
   }
 
   .lista-rodape {
-    border-left: 1px solid var(--cinza-claro);
+    border-left: .1rem solid var(--cinza-claro);
     padding-left: 1.6rem;
   }
 }
