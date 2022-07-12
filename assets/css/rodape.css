@@ -40,4 +40,19 @@
     color: var(--cinza);
     text-decoration: none;
   }
+
+  .lista-rodape_link:hover {
+    color: var(--laranja);
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .rodape {
+    justify-content: space-evenly;
+  }
+
+  .lista-rodape {
+    border-left: 1px solid var(--cinza-claro);
+    padding-left: 1.6rem;
+  }
 }

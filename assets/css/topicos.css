@@ -26,6 +26,12 @@
   background: var(--laranja);
   padding: 1.6rem 2.4rem;
   display: inline-block;
+  transition: color .5s, background .5s;
+}
+
+.topicos_link:hover {
+  color: var(--laranja);
+  background: var(--branco);
 }
 
 @media screen and (min-width: 1024px) {
@@ -37,5 +43,18 @@
     width: 70%;
     margin: 0 auto;
   }
+}
 
+@media screen and (min-width: 1728px) {
+  .topicos {
+    padding: 4.8rem 0;
+  }
+
+  .topicos_lista {
+    max-width: 80rem;
+  }
+
+  .topicos_link {
+    padding: 2.4rem 3.2rem;
+  }
 }

@@ -87,11 +87,13 @@
       <a href="#">
         <img src="assets/img/icon_heart.svg" class="container_imagem cabecalho_imagem-transparent" alt="Favoritos" />
       </a>
-      <a href="#">
+      <a href="#" class="container_link">
         <img src="assets/img/icon_bag.svg" class="container_imagem" alt="Sacola de compras" />
+        <span class="container_texto">Minha sacola</span>
       </a>
-      <a href="#">
+      <a href="#" class="container_link">
         <img src="assets/img/icon_people.svg" class="container_imagem" alt="Perfil" />
+        <span class="container_texto">Meu Perfil</span>
       </a>
     </div>
   </header>
@@ -107,112 +109,118 @@
 
     <section class="carroussel">
       <h2 class="carroussel_titulo">Últimos Lançamentos</h2>
-      <div class="swiper">
-        <div class="swiper-pagination"></div>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_acessibilidade.svg" alt="Livro Acessibilidade" />
+
+      <div class="carroussel_container">
+        <div class="swiper">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_acessibilidade.svg" alt="Livro Acessibilidade" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_guia_front_end.svg" alt="Livro Guia Front-End" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_javascript.svg" alt="Livro Javascript" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_metricas_ageis.svg" alt="Livro Métricas Ágeis" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_nodejs.svg" alt="Livro Node.js" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_react_native.svg" alt="Livro React Native" />
+            </div>
           </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_guia_front_end.svg" alt="Livro Guia Front-End" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_javascript.svg" alt="Livro Javascript" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_metricas_ageis.svg" alt="Livro Métricas Ágeis" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_nodejs.svg" alt="Livro Node.js" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_react_native.svg" alt="Livro React Native" />
-          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
 
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-
-      <div class="card">
-        <div class="card_descricao">
-          <div class="descricao">
-            <span class="descricao_prefixo">Talvez você também se interesse por...</span>
-            <h2 class="descricao_titulo">Angular 11 e Firebase</h2>
-            <p class="descricao_texto">
-              Construindo uma aplicação integrada com a plataforma do Google.
-            </p>
+        <div class="card">
+          <div class="card_descricao">
+            <div class="descricao">
+              <span class="descricao_prefixo">Talvez você também se interesse por...</span>
+              <h2 class="descricao_titulo">Angular 11 e Firebase</h2>
+              <p class="descricao_texto">
+                Construindo uma aplicação integrada com a plataforma do Google.
+              </p>
+            </div>
+            <img src="./assets/img/angular.svg" alt="Angular 11 e Firebase" />
           </div>
-          <img src="./assets/img/angular.svg" alt="Angular 11 e Firebase" />
-        </div>
-        <div class="card_botoes">
-          <ul class="botoes">
-            <li class="botoes_item">
-              <img src="./assets/img/icon_heart.svg" alt="Favoritar livro" />
-            </li>
-            <li class="botoes_item">
-              <img src="./assets/img/icon_bag.svg" alt="Adicionar ao carinho de compras" />
-            </li>
-          </ul>
+          <div class="card_botoes">
+            <ul class="botoes">
+              <li class="botoes_item">
+                <img src="./assets/img/icon_heart.svg" alt="Favoritar livro" />
+              </li>
+              <li class="botoes_item">
+                <img src="./assets/img/icon_bag.svg" alt="Adicionar ao carinho de compras" />
+              </li>
+            </ul>
 
-          <a class="botoes_ancora" href="#">Saiba mais</a>
+            <a class="botoes_ancora" href="#">Saiba mais</a>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="carroussel">
       <h2 class="carroussel_titulo">Mais vendidas</h2>
-      <div class="swiper">
-        <div class="swiper-pagination"></div>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_acessibilidade.svg" alt="Livro Acessibilidade" />
+
+      <div class="carroussel_container">
+        <div class="swiper">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_acessibilidade.svg" alt="Livro Acessibilidade" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_guia_front_end.svg" alt="Livro Guia Front-End" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_javascript.svg" alt="Livro Javascript" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_metricas_ageis.svg" alt="Livro Métricas Ágeis" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_nodejs.svg" alt="Livro Node.js" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/livro_react_native.svg" alt="Livro React Native" />
+            </div>
           </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_guia_front_end.svg" alt="Livro Guia Front-End" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_javascript.svg" alt="Livro Javascript" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_metricas_ageis.svg" alt="Livro Métricas Ágeis" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_nodejs.svg" alt="Livro Node.js" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./assets/img/livro_react_native.svg" alt="Livro React Native" />
-          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
 
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-
-      <div class="card">
-        <div class="card_descricao">
-          <div class="descricao">
-            <img class="descricao_estrelas" src="./assets/img/estrelinhas.svg" alt="5 estrelinhas" />
-            <span class="descricao_prefixo">Autora do Mês</span>
-            <h2 class="descricao_titulo">Juliana Agarikov</h2>
-            <p class="descricao_texto">
-              Analista de sistemas e escritora, Juliana é especialista em
-              Front-End.
-            </p>
+        <div class="card">
+          <div class="card_descricao">
+            <div class="descricao">
+              <img class="descricao_estrelas" src="./assets/img/estrelinhas.svg" alt="5 estrelinhas" />
+              <span class="descricao_prefixo">Autora do Mês</span>
+              <h2 class="descricao_titulo">Juliana Agarikov</h2>
+              <p class="descricao_texto">
+                Analista de sistemas e escritora, Juliana é especialista em
+                Front-End.
+              </p>
+            </div>
+            <img src="./assets/img/perfil_escritora_1.svg" alt="Juliana Agarikov" />
           </div>
-          <img src="./assets/img/perfil_escritora_1.svg" alt="Juliana Agarikov" />
-        </div>
-        <div class="card_botoes">
-          <ul class="botoes">
-            <li class="botoes_item">
-              <img src="./assets/img/icon_heart.svg" alt="Favoritar livro" />
-            </li>
-            <li class="botoes_item">
-              <img src="./assets/img/icon_bag.svg" alt="Adicionar ao carinho de compras" />
-            </li>
-          </ul>
+          <div class="card_botoes">
+            <ul class="botoes">
+              <li class="botoes_item">
+                <img src="./assets/img/icon_heart.svg" alt="Favoritar livro" />
+              </li>
+              <li class="botoes_item">
+                <img src="./assets/img/icon_bag.svg" alt="Adicionar ao carinho de compras" />
+              </li>
+            </ul>
 
-          <a class="botoes_ancora" href="#">Saiba mais</a>
+            <a class="botoes_ancora" href="#">Saiba mais</a>
+          </div>
         </div>
       </div>
     </section>

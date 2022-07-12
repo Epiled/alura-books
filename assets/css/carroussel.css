@@ -27,6 +27,7 @@
   border-radius: 1rem;
   background: var(--branco);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
 }
 
 .card_descricao {
@@ -79,6 +80,12 @@
   padding: 1.2rem 3.5rem;
   font-weight: 700;
   text-decoration: none;
+  transition: color .5s, background .5s;
+}
+
+.botoes_ancora:hover {
+  color: var(--laranja);
+  background: var(--azul);
 }
 
 @media screen and (min-width: 1024px) {
@@ -104,5 +111,39 @@
   .card {
     width: 40%;
     margin: 3rem auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carroussel_titulo {
+    font-size: 3.6rem;
+  }
+
+  .carroussel_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 4.8rem;
+    justify-content: center;
+  }
+
+  .swiper {
+    max-width: 74.5rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .swiper-pagination {
+    margin: 1rem 0;
+  }
+
+  .descricao_prefixo {
+    font-size: 3.2rem;
+  }
+
+  .card {
+    max-width: 58.8rem;
+    width: 100%;
+    margin: 0;
   }
 }

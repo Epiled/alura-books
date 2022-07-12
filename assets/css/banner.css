@@ -35,7 +35,7 @@
   background-position: 1rem;
 }
 
-@media screen  and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .banner {
     padding: 8rem;
   }
@@ -50,5 +50,16 @@
 
   .banner_pesquisa::placeholder {
     background-position: 8rem;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .banner_pesquisa {
+    padding: 2rem;
+    width: 35%;
+  }
+
+  .banner_pesquisa::placeholder {
+    background-position: 12rem;
   }
 }
