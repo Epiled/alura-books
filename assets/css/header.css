@@ -60,6 +60,10 @@
   display: none;
 }
 
+.opcoes, .cabecalho_titulo {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .container {
     align-items: self-end;
@@ -85,6 +89,7 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
     padding-left: 1rem;
+    display: block;
   }
 
   .cabecalho_destaque {
