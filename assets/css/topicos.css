@@ -1,6 +1,6 @@
 .topicos {
   background: var(--azul-degrade);
-  padding: 2.4rem 0;
+  padding: 2.4rem 1rem;
   text-align: center;
 }
 
@@ -28,3 +28,14 @@
   display: inline-block;
 }
 
+@media screen and (min-width: 1024px) {
+  .topicos_titulo, .topicos_link {
+    font-size: 2.4rem;
+  }
+
+  .topicos_lista {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+}
