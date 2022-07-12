@@ -34,3 +34,21 @@
   background: url("../img/icon_lupa.svg") no-repeat;
   background-position: 1rem;
 }
+
+@media screen  and (min-width: 1024px) {
+  .banner {
+    padding: 8rem;
+  }
+
+  .banner_titulo {
+    font-size: 3.6rem;
+  }
+
+  .banner_pesquisa {
+    width: 50%;
+  }
+
+  .banner_pesquisa::placeholder {
+    background-position: 8rem;
+  }
+}
