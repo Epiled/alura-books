@@ -32,6 +32,7 @@
 .card_descricao {
   display: flex;
   gap: 1.6rem;
+  justify-content: space-between;
 }
 
 .descricao_estrelas {
@@ -78,4 +79,30 @@
   padding: 1.2rem 3.5rem;
   font-weight: 700;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .carroussel_titulo {
+    padding: 5rem 0 2rem 0;
+    font-size: 2.6rem;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .swiper-pagination {
+    margin: 2rem 0 3rem 0;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+
+  .card {
+    width: 40%;
+    margin: 3rem auto;
+  }
 }
