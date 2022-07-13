@@ -19,12 +19,15 @@
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Badge](https://img.shields.io/badge/-JS-1572B6?style=for-the-badge&logo=javascript&logoColor=black)
+![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 
 <h2> 📑 Tabela de Conteúdos </h2>
 
 <!--ts-->
    * [Sobre](#sobre)
+   * [Referência](#referencia)
    * [Demonstração](#demonstracao)
    * [Performance](#performance)
    * [Instalação](#instalacao)
@@ -34,13 +37,21 @@
    * [Autor](#autor)
 <!--te-->
 
+<h2 id="referencia"> Referência </h2>
+<p>
+  Os arquivos de wireframes podem ser visto ou editador no seguinte link.
+<p>
+<p>
+  Figma: <a href="https://www.figma.com/file/JTXUlFgtMNBCn2JEkXzMFW/AluraBooks-Ref">HTML e CSS Responsividade com Mobile First</a>
+</p>
+
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
 <p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho</p>
 <p>Spotify: <a href="epiled.github.io/spotify/">epiled.github.io/spotify/</a></p>
 
-![spotify_desktop](https://user-images.githubusercontent.com/55258483/178335246-2bbf5a76-9d7a-4594-a7ed-49df254586a9.gif)
-![spotify_mobile](https://user-images.githubusercontent.com/55258483/178335669-263d3077-5bcd-40dd-9753-bb059217c750.gif)
+![html_e_css_mobile_first_desktop](https://user-images.githubusercontent.com/55258483/178686221-71cee3a8-6b47-4006-afbc-71ab3e001565.gif)
+![html_e_css_mobile_first_mobile](https://user-images.githubusercontent.com/55258483/178686235-efd3fcbf-81cb-432a-ba79-e38ba89bdd14.gif)
 
 <h2 id="performance"> 📈 Performance Lighthouse </h2>
 
@@ -58,8 +69,6 @@
 <h3 id="arquivos_locais">Arquivos Locais</h3>
 <p>Nesse ponto o projeto já pode ser executado no navegador através do arquivo "index.html"</p>
 
-
-
 <h2 id="tecnologias"> 🛠 Tecnologias </h2>
 
 As seguintes tecnologias foram usadas na construção deste projeto:
@@ -67,6 +76,8 @@ As seguintes tecnologias foram usadas na construção deste projeto:
 <ul>
   <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML5</a></li>
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
+  <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">Javascript</a></li>
+  <li><a href="https://swiperjs.com/" target="_blank">SwiperJS</a></li>
 </ul>
 
 <h2 id="autor"> 👨‍💻 Autor </h2>
