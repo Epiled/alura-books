@@ -36,6 +36,7 @@
   left: 0;
   width: 60%;
   background-color: var(--branco);
+  z-index: 2;
 }
 
 .lista-menu_titulo {
