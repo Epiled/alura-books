@@ -14,7 +14,7 @@
 ![Badge](https://img.shields.io/github/languages/code-size/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
 ![Badge](https://img.shields.io/github/languages/count/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
-![Bagde](https://img.shields.io/github/v/release/epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
+![Bagde](https://img.shields.io/github/v/release/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
 ![Bagde](https://img.shields.io/github/license/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
