@@ -55,7 +55,7 @@
 
 <h2 id="performance"> 📈 Performance Lighthouse </h2>
 
-![performance_git](https://user-images.githubusercontent.com/55258483/178336165-ac494962-72e9-450e-8be3-761e590fd058.png)
+![mobile_first](https://user-images.githubusercontent.com/55258483/179240575-f83027c0-5781-4333-a16c-2ba3f89b9a57.png)
 
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
