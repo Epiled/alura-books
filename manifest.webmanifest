@@ -1,0 +1,25 @@
+{
+    "short_name": "Alura Mobile First",
+    "name": "Alura Mobile First",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#C45300",
+    "them-color": "#C45300",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "Projeto final do curso, com PWA",
+    "icons": [
+        {
+            "src": "assets/img/pwa/alura_books_icone_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/img/pwa/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        }
+    ]
+}

@@ -5,18 +5,23 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="msapplication-TileColor" content="#FD8325">
-  <meta name="theme-color" content="#FD8325" />
+  <meta name="msapplication-TileColor" content="#C45300">
+  <meta name="theme-color" content="#C45300" />
   <meta name="description" content="Projeto final do  curso HTML e CSS responsividade com mobile-first.">
 
   <title>Alura Books</title>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="./assets/img/pwa/app_icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet preload prefetch" as="style" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" type="text/css" 
+  crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
@@ -57,12 +62,10 @@
     </div>
 
     <ul class="opcoes">
-      <input type="checkbox" name="opcoes-menu" id="opcoes_menu" class="opcoes_menu" />
-      <label for="opcoes_menu">
-        <li class="opcoes_item">Categorias</li>
-      </label>
 
-      <ul class="lista-menu">
+      <li class="opcoes_item opcoes_item-categorias">Categorias
+
+      <ul class="lista-menu lista-menu-categorias">
         <li class="lista-menu_item">
           <a class="lista-menu_link" href="#">Programação</a>
         </li>
@@ -79,6 +82,7 @@
           <a class="lista-menu_link" href="#">Design & UX</a>
         </li>
       </ul>
+    </li>
 
       <li class="opcoes_item">
         <a class="opcoes_link" href="#">Favoritos</a>
@@ -89,8 +93,8 @@
     </ul>
 
     <div class="container container_icones">
-      <a href="#">
-        <img src="assets/img/icon_heart.svg" class="container_imagem cabecalho_imagem-transparent" alt="Favoritos" width="26" height="32" />
+      <a href="#" class="cabecalho_icone-transparent">
+        <img src="assets/img/icon_heart.svg" class="container_imagem" alt="Favoritos" width="26" height="32" />
       </a>
       <a href="#" class="container_link">
         <img src="assets/img/icon_bag.svg" class="container_imagem" alt="Sacola de compras" width="26" height="32" />
@@ -355,6 +359,8 @@
       },
     });
   </script>
-</body>
 
+  <script src="./assets/js/index.min.js"></script>
+
+</body>
 </html>

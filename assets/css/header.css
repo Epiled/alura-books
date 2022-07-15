@@ -39,6 +39,14 @@
   z-index: 2;
 }
 
+.opcoes_item-categorias:hover .lista-menu {
+  display: block;
+}
+
+.lista-menu-categorias {
+  display: none;
+}
+
 .lista-menu_titulo {
   color: var(--laranja);
   font-weight: 700;
@@ -78,7 +86,7 @@
     justify-content: space-around;
   }
 
-  .cabecalho_imagem-transparent, .opcoes_menu {
+  .cabecalho_imagem-transparent, .cabecalho_icone-transparent, .opcoes_menu {
     display: none;
   }
 
