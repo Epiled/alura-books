@@ -10,12 +10,12 @@
   com o objetivo de extrair o máximo de perfomance da página.
 </p>
 
-![Badge](https://img.shields.io/github/last-commit/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/code-size/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/count/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
+![Badge](https://img.shields.io/github/last-commit/Epiled/alura-books?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/code-size/Epiled/alura-books?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/count/Epiled/alura-books?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
-![Bagde](https://img.shields.io/github/v/release/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
-![Bagde](https://img.shields.io/github/license/Epiled/HTML-e-CSS-responsividade-com-mobile-first?style=for-the-badge)
+![Bagde](https://img.shields.io/github/v/release/Epiled/alura-books?style=for-the-badge)
+![Bagde](https://img.shields.io/github/license/Epiled/alura-books?style=for-the-badge)
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -37,7 +37,7 @@
    * [Autor](#autor)
 <!--te-->
 
-<h2 id="referencia"> Referência </h2>
+<h2 id="referencia"> 🔖 Referência </h2>
 <p>
   Os arquivos de wireframes podem ser visto ou editador no seguinte link.
 <p>
@@ -48,7 +48,7 @@
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
 <p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho</p>
-<p>Spotify: <a href="epiled.github.io/spotify/">epiled.github.io/spotify/</a></p>
+<p>Alura Books: <a href="epiled.github.io/alura-books/">epiled.github.io/alura-books/</a></p>
 
 ![html_e_css_mobile_first_desktop](https://user-images.githubusercontent.com/55258483/178686221-71cee3a8-6b47-4006-afbc-71ab3e001565.gif)
 ![html_e_css_mobile_first_mobile](https://user-images.githubusercontent.com/55258483/178686235-efd3fcbf-81cb-432a-ba79-e38ba89bdd14.gif)
@@ -60,8 +60,8 @@
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
 ```
-1. git clone https://github.com/Epiled/HTML-e-CSS-responsividade-com-mobile-first.git
-2. cd HTML-e-CSS-responsividade-com-mobile-first
+1. git clone https://github.com/Epiled/alura-books.git
+2. cd alura-books
 ```
 
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>
