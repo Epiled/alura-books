@@ -48,7 +48,7 @@
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
 <p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho</p>
-<p>Alura Books: <a href="epiled.github.io/alura-books/">epiled.github.io/alura-books/</a></p>
+<p>Alura Books: <a href="https://epiled.github.io/alura-books/">epiled.github.io/alura-books/</a></p>
 
 ![html_e_css_mobile_first_desktop](https://user-images.githubusercontent.com/55258483/178686221-71cee3a8-6b47-4006-afbc-71ab3e001565.gif)
 ![html_e_css_mobile_first_mobile](https://user-images.githubusercontent.com/55258483/178686235-efd3fcbf-81cb-432a-ba79-e38ba89bdd14.gif)
