@@ -78,7 +78,7 @@ As seguintes tecnologias foram usadas na construção deste projeto:
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
   <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">Javascript</a></li>
   <li><a href="https://swiperjs.com/" target="_blank">SwiperJS</a></li>
-  <li><a href="https://web.dev/progressive-web-apps/" target="_blank">SwiperJS</a></li>
+  <li><a href="https://web.dev/progressive-web-apps/" target="_blank">PWA</a></li>
 </ul>
 
 <h2 id="autor"> 👨‍💻 Autor </h2>
